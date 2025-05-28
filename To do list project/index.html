@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-MZ">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>To-Do List - Projeto Ideal</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <header>
+        <h1>Lista de Tarefas</h1>
+    </header>
+    <main>
+        <section class="todo-app">
+            <form id="todo-form">
+                <input
+                    type="text"
+                    id="todo-input"
+                    placeholder="Adicione uma nova tarefa..."
+                    autocomplete="off"
+                />
+                <button type="submit" id="add-btn">Adicionar</button>
+            </form>
+            <ul id="todo-list"></ul>
+            <button id="clear-completed" class="hidden">Limpar tarefas concluídas</button>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
